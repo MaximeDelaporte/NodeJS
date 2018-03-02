@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+[data-use="actions"]{ background: lightblue ;width: 100vw; height: 50px;display:flex; align-items: flex-start;justify-content: flex-start}
+input {  background: white;color:lightblue; border:none; border-radius: 5px; padding: 10px; margin:5px;}
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee;}

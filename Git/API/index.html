@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Ma Super API</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Ma super API</h1>
+            <section data-use="connection">        
+                <input type='text'  placeholder="Name" data-use="name">
+                <input type='password' placeholder="Password" data-use="password">
+                <input type="submit" value='login' data-action="connect">
+            </section>
+            <input type="submit" value='Disconnect' data-action="disconnect" class="hidden">
+            <section data-use="getToDo" class="hidden">
+                <p data-use="result"></p>
+                <input type="submit" value="To Do" data-action="getToDo">
+            </section>
+        </main>
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="script.js" ></script> 
+    </body>
+</html>
+

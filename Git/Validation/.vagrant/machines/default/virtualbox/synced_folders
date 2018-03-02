@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/Users/Maxime/Downloads/NodeJS/NodeJS/Git/Validation/data","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Maxime/Downloads/NodeJS/NodeJS/Git/Validation","disabled":false,"__vagrantfile":true}}}

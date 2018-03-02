@@ -1,0 +1,31 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+
+      <link rel="stylesheet" href="/public/css/style.css">
+  </head>
+  <body>
+      <div data-use="actions">
+          <input data-action="roomChange" type="button" value="a">
+          <input data-action="roomChange" type="button" value="b">
+          
+          <input type="text" name="pseudo" placeholder="Name">
+          <input data-action="action" type="button" value="Applaudir">
+          <input data-action="action" type="button" value="Taper des pieds">
+          <input data-action="action" type="button" value="Huer">
+          
+      </div>
+      <div data-use="view">
+          
+      </div>
+      <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+      <script src="/public/js/script.js"></script>
+  </body>
+</html>

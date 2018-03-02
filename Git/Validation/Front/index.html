@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Validation</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>DESBOUQUINN Library</h1>
+            <section data-use="connection">        
+                <input type='text'  placeholder="Name" data-use="name">
+                <input type='password' placeholder="Password" data-use="password">
+                <input type="submit" value='login' data-action="connect">
+            </section>
+            <div data-use="result"></div>
+            <p data-use="account">New employee, create a new account</p>
+            <section data-use="new" class="hidden">
+                <input type='text'  placeholder="Name" data-use="newname">
+                <input type='password' value="" placeholder="Password" data-use="newpassword">
+                <input type="submit" value='Create Account' data-action="subscribe">
+            </section>
+            <input type="submit" value='Disconnect' data-action="disconnect" class="hidden">
+            <section data-use="books" class="hidden">
+                <input type="button" id="deleteAcc" value="Delete">
+                <input type="submit" value="Book List" data-action="getBooks">
+                <div class="addBook">
+                    <p>New book ? Register it here</p>
+                    <input type='text' placeholder="Title" data-use="newBookTitle">
+                    <input type='text' placeholder="Author" data-use="newBookAuthor">
+                    <input type='text' placeholder="Editor" data-use="newBookEditor">
+                    <input type="submit" value="Add" data-action="newBook">
+                </div>
+            </section>
+        </main>
+        <script type="text/javascript" src="./js/vendor/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./js/script.js" ></script> 
+    </body>
+</html>
+
